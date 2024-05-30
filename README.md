@@ -4,7 +4,7 @@
 Add cdn for `Jquery` and `berita-malaysia` in head tag.
 ```
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="berita-malaysia.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/zahiruddinnorzain/berita-malaysia/berita-malaysia.js"></script>
 ```
 
 ## Tutorial
