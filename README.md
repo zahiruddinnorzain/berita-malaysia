@@ -7,7 +7,9 @@ Add cdn for `Jquery` and `berita-malaysia` in head tag.
 <script src="berita-malaysia.js"></script>
 ```
 
-### First method
+## Tutorial
+Write this in javascript
+#### First method
 ```
 $(async function () {
     var news_data = await berita_malaysia('awani')
@@ -15,7 +17,7 @@ $(async function () {
 })
 ``` 
 
-### Second method
+#### Second method
 ```
 $(document).ready(async function(){
     var news_data = await berita_malaysia('awani')
@@ -25,6 +27,6 @@ $(document).ready(async function(){
 
 you can get news in `news_data` variable.
 
-Credit to:  
+## Credit
 @zahiruddinnorzain
 @mohamadarifin97
