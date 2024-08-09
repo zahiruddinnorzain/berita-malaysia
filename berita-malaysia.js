@@ -67,7 +67,8 @@ async function berita_malaysia(jenis){
         rssUrl = 'http://utusan.com.my/feed';
     }
     
-    const proxyUrl = 'https://direct-bo.000webhostapp.com/proxy.php?url=' + encodeURIComponent(rssUrl);
+    // const proxyUrl = 'https://direct-bo.000webhostapp.com/proxy.php?url=' + encodeURIComponent(rssUrl);
+    const proxyUrl = 'http://direct-bo.unaux.com/proxy.php?url=' + encodeURIComponent(rssUrl);
     let result = await $.ajax({
         url: proxyUrl,
         method: 'GET',
