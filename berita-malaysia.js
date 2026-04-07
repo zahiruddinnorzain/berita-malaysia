@@ -44,7 +44,7 @@ function xmlToJson(xml) {
 async function berita_malaysia(jenis){
     rssUrl = '';
     if(jenis == 'awani'){
-        rssUrl = 'http://rss.astroawani.com/rss/latest/public';
+        rssUrl = 'https://www.astroawani.com/rss/latest/public';
     }
 
     // if(jenis == 'malaymail'){
